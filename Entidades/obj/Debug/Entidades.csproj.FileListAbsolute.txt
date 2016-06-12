@@ -1,0 +1,5 @@
+C:\Users\muriarte\Documents\GitHub\ProjectTrabel\Entidades\bin\Debug\Entidades.dll
+C:\Users\muriarte\Documents\GitHub\ProjectTrabel\Entidades\bin\Debug\Entidades.pdb
+C:\Users\muriarte\Documents\GitHub\ProjectTrabel\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\muriarte\Documents\GitHub\ProjectTrabel\Entidades\obj\Debug\Entidades.dll
+C:\Users\muriarte\Documents\GitHub\ProjectTrabel\Entidades\obj\Debug\Entidades.pdb
