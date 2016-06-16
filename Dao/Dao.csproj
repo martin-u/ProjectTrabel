@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriaDao.cs" />
-    <Compile Include="CiudadDao.cs" />
+    <Compile Include="CiudadDestinoDao.cs" />
+    <Compile Include="CiudadOrigenDao.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="EstadoDao.cs" />
     <Compile Include="HotelDao.cs" />

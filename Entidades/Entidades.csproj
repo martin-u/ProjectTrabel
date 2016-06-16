@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriaEntidad.cs" />
-    <Compile Include="CiudadEntidad.cs" />
+    <Compile Include="CiudadDestinoEntidad.cs" />
+    <Compile Include="CiudadOrigenEntidad.cs" />
     <Compile Include="EstadoEntidad.cs" />
     <Compile Include="HotelEntidad.cs" />
     <Compile Include="PaisEntidad.cs" />

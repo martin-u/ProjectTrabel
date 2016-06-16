@@ -14,6 +14,8 @@ public partial class Form_Hotel : System.Web.UI.Page
         if (!IsPostBack)
         {
             cargarComboTemporada();
+            cargarComboCiudad();
+            cargarComboCategoria();
         }
     }
     
@@ -36,9 +38,24 @@ public partial class Form_Hotel : System.Web.UI.Page
 
     protected void cargarComboCiudad()
     {
-        ddl_ciudad.DataSource = CiudadDao.consultarCiudad();
-        ddl_ciudad.DataTextField = "nombre";
-        ddl_ciudad.DataValueField = "idCiudad";
+        ddl_ciudad.DataSource = CiudadOrigenDao.consultarCiudadOrigen();
+        ddl_ciudad.DataTextField = "nombreOrigen";
+        ddl_ciudad.DataValueField = "idCiudadOrigen";
         ddl_ciudad.DataBind();
+    }
+
+    protected void btn_guardar_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void btn_eliminar_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void btn_consultar_Click(object sender, EventArgs e)
+    {
+
     }
 }

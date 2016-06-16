@@ -13,7 +13,7 @@ namespace Dao
     {
         protected static SqlConnection obtenerDB()
         {
-            string strcn = @"Data Source=2001:0:9d38:6abd:855:107e:411e:dc4d,49170;Initial Catalog=MTravel;Persist Security Info=True;User ID=sa;Password=artemisa";
+            string strcn = @"Data Source=fd90:671c:8820:1100:d475:44c2:9183:3252,49170;Initial Catalog=MTravel;Persist Security Info=True;User ID=sa;Password=artemisa";
             SqlConnection cnn = new SqlConnection(strcn);
             cnn.Open();
             return cnn;
