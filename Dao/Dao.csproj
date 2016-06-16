@@ -40,11 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaDao.cs" />
     <Compile Include="CiudadDao.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="EstadoDao.cs" />
+    <Compile Include="HotelDao.cs" />
+    <Compile Include="PaisDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TemporadaDao.cs" />
+    <Compile Include="TipoDocumentoDao.cs" />
     <Compile Include="TransporteDao.cs" />
+    <Compile Include="TuristaDao.cs" />
     <Compile Include="ViajeDao.cs" />
   </ItemGroup>
   <ItemGroup>

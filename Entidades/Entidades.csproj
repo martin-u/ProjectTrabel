@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaEntidad.cs" />
     <Compile Include="CiudadEntidad.cs" />
+    <Compile Include="EstadoEntidad.cs" />
+    <Compile Include="HotelEntidad.cs" />
+    <Compile Include="PaisEntidad.cs" />
     <Compile Include="TemporadaEntidad.cs" />
+    <Compile Include="TipoDocumentoEntidad.cs" />
     <Compile Include="TransporteEntidad.cs" />
+    <Compile Include="TuristaEntidad.cs" />
     <Compile Include="ViajeEntidad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
